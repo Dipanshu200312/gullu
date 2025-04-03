@@ -1743,7 +1743,7 @@
         setTimeout(() => {
             const review = reviews[currentIndex];
             reviewText.innerText = review.text;
-            reviewerName.innerHTML = `<a href="https://www.google.com/search?sca_esv=4aaf2d4134572c2c&sxsrf=AHTn8zq06cnlHISNMZxAfOrjDjc_g5-Hmg:1743655899040&si=APYL9bvoDGWmsM6h2lfKzIb8LfQg_oNQyUOQgna9TyfQHAoqUkZWxnWblkTBwkiIl8XML2Tc6Qzo08N_D0lSR_Gd22cu0G39Vuqq20HKFBdQhJHk2DEsQpxILtp30YUNR5ZjZVumpcqoYeDbwqvoMQjiGldA8JNe04gqVLYI5iza7T8qBRUGmm_1WJHzeBsDuqbDGP95--eJ&q=American+Academy+of+Financial+Management+India+-+AAFM%C2%AE+India+Reviews&sa=X&ved=2ahUKEwjJ6uOziLuMAxVHR2wGHbFHIBsQ0bkNegQIOhAE&biw=1280&bih=563&dpr=1.5" target="_blank" style="color: #007bff; text-decoration: none;">${review.author_name}</a>`;
+            reviewerName.innerHTML = `<a href="https://www.google.com/maps/place/American+Academy+of+Financial+Management+India+-+AAFM+India/@28.691535,77.152293,16z/data=!4m6!3m5!1s0x390d01377b1d0e07:0xc8d491ea9ef913f9!8m2!3d28.691535!4d77.1522931!16s%2Fg%2F12hrzj9j8?hl=en" target="_blank" style="color: #007bff; text-decoration: none;">${review.author_name}</a>`;
             userImage.src = review.profile_photo_url;
             stars.innerHTML = "★".repeat(review.rating) + "☆".repeat(5 - review.rating);
 
